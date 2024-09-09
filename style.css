@@ -105,3 +105,67 @@
     border-radius: 18px;
     border-color: transparent ;
 }
+
+.MENU {
+    position: relative;
+    width: 40px;
+    height: 80px;
+    top: -30px;
+    left:-10px;
+}
+
+.MENUIMPUT:checked  ~ .ULMENU{
+    display:block;
+}
+.MENUIMPUT {
+    display: none;
+}
+.LABELMENU {
+    color: rgb(0, 0, 0);
+    border-color: transparent;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    line-height: 50 px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    position: relative;
+    font-size: 40px;
+    top: 25%;
+    left: 1px;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.Categories:checked ~ .LABELMENU{
+    background:rgb(0, 0, 0);
+    color: #000000;
+}
+.ULMENU{
+    display: none;
+    position: relative; 
+    top: 30px; 
+    left: 0; 
+    margin: 0; 
+    padding:0px;
+    width: 200px;
+    margin: left 0px;
+    z-index: 10;
+    } 
+
+.men-1{
+    width: 10%;
+    height: 20%;
+    left: auto;
+    top: auto;
+
+}
+
+.text-men{
+    position: absolute;
+    right: 50%;
+    top: -2%;
+}
+
+
